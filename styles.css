@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.profile-picture img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.skills {
+    background-color: #f0f0f0;
+    padding: 2em;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+form {
+    text-align: center;
+    background-color: white;
+}
+
